@@ -1,0 +1,154 @@
+/* General styling for the container */
+.container {
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .add-button {
+    position: relative;
+  }
+  
+  #addButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Module styling */
+  .module {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .module-name {
+    flex-grow: 1;
+  }
+  
+  .module-options {
+    cursor: pointer;
+  }
+  
+  .module-options-dropdown {
+    position: absolute;
+    right: 10px;
+    top: 100%;
+    background: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: none;
+  }
+  
+  .module:hover .module-options-dropdown {
+    display: block;
+  }
+  
+  .module-options-dropdown a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .module-options-dropdown a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Edit module form styling */
+  .edit-module-form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .edit-module-form h2 {
+    margin: 0 0 10px 0;
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .edit-input {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .edit-buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .cancel-button {
+    background: none;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background: #00a86b;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  /* Empty state styling */
+  .empty-state {
+    text-align: center;
+    color: #888;
+  }
+  
+  .empty-state img {
+    max-width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .empty-state p {
+    margin: 5px 0;
+  }
+  
